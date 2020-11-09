@@ -20,87 +20,101 @@
           <i></i>
         </label>
         <div class="logo">
-          <a href="#">Winkie Ng</a>
+          <a href="index.html">Winkie Ng</a>
         </div>
         <div class="nav-wrapper">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Bio</a></li>
-            <li><a href="#">Project 1</a></li>
-            <li><a href="#">Project 2</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">Bio</a></li>
+            <li><a href="#" class="nav-link">Project 1</a></li>
+            <li><a href="#" class="nav-link">Project 2</a></li>
+            <li><a href="#" class="nav-link">Contact</a></li>
           </ul>
         </div>
       </nav>
     </section>
 
+    <section class="banner-index">
+      <h1>P03 style guide</h1>
+    </section>
+
     <!-- interactive elements -->
-    <section id="interactive_elements">
+    <section id="interactive-elements">
       <h2>interactive elements</h2>
       <!-- in-text link -->
-      <h3>in-text link</h3>
-      <h4>CSS selector:</h4>
-      <p></p>
-      <h4>sample code:</h4>
-      <code>&lt;a href="https://www.google.com/"&gt;This is an in-text link&lt;/a&gt;</code>
-      <h4>rendered elements:</h4>
-      <a href="https://www.google.com/">This is an in-text link</a>
+      <section class="in-text-element">
+        <h3><span class="number">01 </span>in-text link</h3>
+        <h4>CSS selector:</h4>
+        <p>.in-text-element</p>
+        <h4>sample code:</h4>
+        <code>&lt;a href="https://www.google.com/"&gt;This is an in-text link&lt;/a&gt;</code>
+        <h4>rendered elements:</h4>
+        <a href="https://www.google.com/">This is an in-text link</a>
+      </section>
 
       <!-- button-->
-      <h3>navigation link</h3>
-      <h4>CSS selector:</h4>
-      <p></p>
-      <h4>sample code:</h4>
-      <code>&lt;a class="button" href="#"&gt;Default Button&lt;/a&gt;</code>
-      <h4>rendered elements:</h4>
-      <a class="button" href="#">Default Button</a>
+      <section class="button-element">
+        <h3><span class="number">02 </span>navigation link</h3>
+        <h4>CSS selector:</h4>
+        <p>.button</p>
+        <h4>sample code:</h4>
+        <code>&lt;a class="button" href="#"&gt;Default Button&lt;/a&gt;</code>
+        <h4>rendered elements:</h4>
+        <a class="button" href="#">Button</a>
+      </section>
 
       <!-- text input -->
-      <h3>text input field with label</h3>
-      <h4>CSS selector:</h4>
-      <p></p>
-      <h4>sample code:</h4>
-      <code>&lt;from&gt;<br>
-        &lt;fieldset class="info"&gt;<br>
-        &lt;input type="search" placeholder="Search..."&gt;<br>
-        &lt;/fieldest&gt;<br>
-        &lt;/form&gt;</code>
-      <h4>Rendered element:</h4>
-      <form>
-        <input type="search" placeholder="Search...">
-      </form>
+      <section class="input-element">
+        <h3><span class="number">03 </span>text input field with label</h3>
+        <h4>CSS selector:</h4>
+        <p>input[type=search]</p>
+        <h4>sample code:</h4>
+        <code>&lt;from&gt;<br>
+          &lt;fieldset class="info"&gt;<br>
+          &lt;input type="search" placeholder="Search..."&gt;<br>
+          &lt;/fieldest&gt;<br>
+          &lt;/form&gt;</code>
+        <h4>Rendered element:</h4>
+        <form>
+          <input type="search" placeholder="Search...">
+        </form>
+      </section>
 
       <!-- radio button -->
-      <h3>radio button with label</h3>
-      <h4>CSS selector:</h4>
-      <p></p>
-      <h4>sample code:</h4>
-      <code>&lt;label class="radio"&gt;This is button 1<br>
-        &lt;input type="radio" checked="checked" name="radio"&gt;<br>
-        &lt;span class="checkmark"&gt;&lt;/span&gt;<br>
-        &lt;/label&gt;<br>
-        &lt;label class="radio"&gt;This is button 2<br>
-        &lt;input type="radio" name="radio"&gt;<br>
-        &lt;span class="checkmark"&gt;&lt;/span&gt;<br>
-        &lt;/label&gt;</code>
-      <h4>Rendered element:</h4>
-      <label class="radio">This is button 1
-        <input type="radio" checked="checked" name="radio">
-        <span class="checkmark"></span>
-      </label>
-      <label class="radio">This is button 2
-        <input type="radio" name="radio">
-        <span class="checkmark"></span>
-      </label>
+      <section class="radio-element">
+        <h3><span class="number">04 </span>radio button with label</h3>
+        <h4>CSS selector:</h4>
+        <p>.radio</p>
+        <h4>sample code:</h4>
+        <code>&lt;label class="radio"&gt;This is button 1<br>
+          &lt;input type="radio" checked="checked" name="radio"&gt;<br>
+          &lt;span class="checkmark"&gt;&lt;/span&gt;<br>
+          &lt;/label&gt;<br>
+          &lt;label class="radio"&gt;This is button 2<br>
+          &lt;input type="radio" name="radio"&gt;<br>
+          &lt;span class="checkmark"&gt;&lt;/span&gt;<br>
+          &lt;/label&gt;</code>
+        <h4>Rendered element:</h4>
+        <label class="radio">This is button 1
+          <input type="radio" checked="checked" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        <label class="radio">This is button 2
+          <input type="radio" name="radio">
+          <span class="checkmark"></span>
+        </label>
+      </section>
 
       <!-- image as a link -->
-      <h3>Image as a Link</h3>
-      <h4>CSS selector:</h4>
-      <p></p>
-      <h4>Sample code:</h4>
-      <code>&lt;a href="https://www.google.com/"&gt;&lt;img src="img/logo.png" alt="logo"&gt;&lt;/a&gt;</code>
-      <h4>Rendered element:</h4>
-      <a href="https://www.google.com/"><img src="img/106model.png" alt="106_model"></a>
+      <section class="image-element">
+        <h3><span class="number">05 </span>image as a link</h3>
+        <h4>CSS selector:</h4>
+        <p>.image-element img</p>
+        <h4>Sample code:</h4>
+        <code>&lt;a href="https://www.google.com/"&gt;&lt;img src="img/logo.png" alt="logo"&gt;&lt;/a&gt;</code>
+        <h4>Rendered element:</h4>
+        <a href="https://www.google.com/"><img src="img/106model.png" alt="106_model"></a>
+      </section>
     </section>
 
     <!-- text elements section -->
@@ -134,20 +148,20 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
         aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-        <!-- numbered lists -->
-        <h3>numbered lists</h3>
-        <h4>CSS selector:</h4>
-        <p>.element li</p>
-        <h4>sample code:</h4>
-        <code>&lt;ol&gt;<br>
-          &lt;li&gt;This is list number 1&lt;/li&gt;<br>
-          &lt;li&gt;This is list number 2&lt;/li&gt;<br>
-          &lt;/ol&gt;</code>
-        <h4>rendered element:</h4>
-        <ol>
-          <li>this is list number 1</li>
-          <li>this is list number 2</li>
-        </ol>
+      <!-- numbered lists -->
+      <h3>numbered lists</h3>
+      <h4>CSS selector:</h4>
+      <p>.element li</p>
+      <h4>sample code:</h4>
+      <code>&lt;ol&gt;<br>
+        &lt;li&gt;This is list number 1&lt;/li&gt;<br>
+        &lt;li&gt;This is list number 2&lt;/li&gt;<br>
+        &lt;/ol&gt;</code>
+      <h4>rendered element:</h4>
+      <ol>
+        <li>this is list number 1</li>
+        <li>this is list number 2</li>
+      </ol>
     </section>
 
     <!-- combined elements section -->
@@ -175,6 +189,10 @@
       <!-- fonts -->
 
       <!-- colour palettes -->
+      <p>8c725a nav bar color, index h2</p>
+      <p>dcd2c8 nav bar background</p>
+      <p>6d5946 nav bar logo color</p>
+      <p>af9883 index h3</p>
 
       <!-- potential imagery -->
       <h3>Potential imagery, and, or, art direction</h3>
@@ -185,7 +203,10 @@
 
     <!-- citation -->
     <section id="citations">
-
+      <p>https://www.youtube.com/watch?v=BXArjoEmVa0&ab_channel=Codegrid</p>
+      <p>https://paulund.co.uk/css-animation-link-underline</p>
+      <p>https://www.w3schools.com/howto/howto_css_custom_checkbox.asp</p>
+      <p>https://www.w3schools.com/cssref/sel_focus.asp</p>
     </section>
     <!-- footer -->
     <footer class="footer">
