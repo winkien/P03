@@ -13,45 +13,58 @@ html{
 }
 
 @font-face {
-  font-family: "Arial","Helvetica","Poppins", sans-serif;
+  font-family: "Poppins", "Trebuchet MS" sans-serif;
   font-weight: 1em;
 }
 
-.navbar {
+.navbar{
   background-color: #dcd2c8;
-  padding-bottom: 1.5em;
+  margin-top: -5em;
+  padding-bottom: 0.5em;
+}
+
+.navbar2 {
+  background-color: #dcd2c8;
+  padding-bottom: 0.5em;
 }
 
 nav{
   padding: 0.5em;
   margin:0;
   width: 100%;
-  height: 5vh;
+  height: 7vh;
   font-family: Poppins;
   font-weight: 400;
 }
 
 .logo{
   float: left;
-  padding: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   margin-left: 1em;
-  margin-top: 0.5em;
+  margin-top: 1em;
 }
 
 .logo a {
   color: #6d5946;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 1000;
   font-size: 1.125em;
-  letter-spacing:0em;
+  letter-spacing:0.05em;
   text-decoration:none;
 }
 
-nav ul{
+.logo a:hover{
+  color: #af9883;
+  transition: 0.3s;
+}
+
+.navbar nav ul{
   float: right;
 }
 
-nav ul li{
+.navbar nav ul li{
   display: inline-block;
   float: left;
 }
@@ -124,28 +137,33 @@ nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hove
     display: block;
     float: none;
     width: 100%;
-    text-align: left;
+    text-align: right;
     margin-bottom: 0.625em;
   }
 
   .nav-wrapper ul li:nth-child(1) a{
     transition-delay: 0.2s;
+    margin-right: 2em;
   }
 
   .nav-wrapper ul li:nth-child(2) a{
     transition-delay: 0.3s;
+    margin-right: 4.6em;
   }
 
   .nav-wrapper ul li:nth-child(3) a{
     transition-delay: 0.4s;
+    margin-right: 4.6em;
   }
 
   .nav-wrapper ul li:nth-child(4) a{
     transition-delay: 0.5s;
+    margin-right: 4.5em;
   }
 
   .nav-wrapper ul li:nth-child(5) a{
     transition-delay: 0.6s;
+    margin-right: 4.5em;
   }
 
   .nav-wrapper ul li a{
@@ -273,44 +291,52 @@ body{
   margin-bottom: 3em;
 }
 
-#interactive-elements {
-  margin: 2em;
+#interactive-elements, #text-elements, #combined-elements, #components, #citations{
+  margin: 5em;
 }
 
-#interactive-elements h2{
+#interactive-elements h2, #text-elements .title h2, #combined-elements h2, #components h2, #citations h2{
   color: #8c725a;
   font-family:"Trebuchet MS";
   text-align: center;
-
+  margin-top: 5em;
+  margin-bottom: 2em;
 }
 
-.in-text-element, .button-element, .input-element, .radio-element, .image-element{
+.in-text-element, .button-element, .input-element, .radio-element,
+.image-element, .heading-element, .paragraph-element, .number-element,
+.nav-element, .interest-element, .project-element, .bio-element,
+.font-element, .color-element, .imagery-element{
   margin-bottom: 5em;
 }
 
-#interactive-elements h3{
+#interactive-elements h3, #text-elements .title h3, #combined-elements h3, #components h3{
   color: #af9883;
   letter-spacing: 0.1em;
 }
 
-#interactive-elements .number{
+#interactive-elements .number, #text-elements .number, #combined-elements .number, #components .number{
   color: #cdbfb1;
 }
 
-#interactive-elements h4{
-  color: #7c6650;
+#interactive-elements h4, #text-elements .title h4{
+  color: #6d5946;
   letter-spacing: 0.09em;
 }
 
-#interactive-elements p{
-  color: #af9883;
+#interactive-elements p, #text-elements p, #combined-elements p, .font-element p{
+  color: #6d5946;
 }
 
-#interactive-elements code{
+#interactive-elements code, #text-elements code{
   color: #6d5946;
   background-color: #f5f2ef;
   padding: 1em;
   display: block;
+}
+
+#interactive-elements .css-code p, #text-elements .css-code p{
+  color: #af9883;
 }
 
 #interactive-elements .in-text-element a{
@@ -322,7 +348,7 @@ body{
   font-size: 0.875em;
   letter-spacing: 0.075em;
   font-weight: 600;
-  position: relative;
+  position:absolute;
 }
 
 .button {
@@ -440,4 +466,256 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .image-element img:hover{
   opacity: 0.5;
   transition: 0.5s;
+}
+
+.heading-element .heading, .paragraph-element p, .number-element li{
+  color: #6d5946;
+}
+
+.navbar2 nav ul{
+  float: center;
+}
+
+.navbar2 nav ul li{
+  display: inline-block;
+  float: left;
+}
+
+.first-font {
+  margin-bottom: 3em;
+}
+
+.first-font h4{
+  font-family: "Poppins";
+  text-transform: uppercase;
+  color: #6d5946;
+  letter-spacing: 0.09em;
+}
+
+.first-font .title, .second-font .title {
+  color: #af9883;
+  text-transform: lowercase;
+}
+
+.first-font p{
+  font-family: "Poppins";
+  letter-spacing: 0.5em;
+}
+
+.second-font h4{
+  font-family: "Trebuchet MS";
+  text-transform: uppercase;
+  color: #6d5946;
+  letter-spacing: 0.09em;
+}
+
+.second-font p{
+  font-family: "Trebuchet MS";
+  letter-spacing: 0.5em;
+}
+
+.palette1 h4{
+  margin-left: 2em;
+  margin-top: -6em;
+  color: #6d5946;
+}
+
+.palette1 p {
+  margin-left: 2.5em;
+  margin-top: -1em;
+  color: #6d5946;
+}
+
+.palette1 .circle{
+  height: 8em;
+  width: 8em;
+  background-color: #f5f2ef;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+.palette2 h4{
+  margin-left: 11.5em;
+  margin-top: -6em;
+  color: #6d5946;
+}
+
+.palette2 p {
+  margin-left: 11.5em;
+  margin-top: -1em;
+  color: #6d5946;
+}
+
+.palette2 .circle{
+  height: 8em;
+  width: 8em;
+  background-color: #dcd2c8;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10em;
+  margin-top: -6.6em;
+}
+
+.palette3 h4{
+  margin-left: 2em;
+  margin-top: -5.75em;
+  color: #6d5946;
+}
+
+.palette3 p {
+  margin-left: 3.4em;
+  margin-top: -1em;
+  color: #6d5946;
+}
+
+.palette3 .circle{
+  height: 8em;
+  width: 8em;
+  background-color: #cdbfb1;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 3em;
+}
+
+.palette4 h4{
+  margin-left: 11.8em;
+  margin-top: -5.75em;
+  color: #6d5946;
+}
+
+.palette4 p {
+  margin-left: 13.3em;
+  margin-top: -1em;
+  color: #6d5946;
+}
+
+.palette4 .circle{
+  height: 8em;
+  width: 8em;
+  background-color: #af9883;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10em;
+  margin-top: -6.85em;
+}
+
+.palette5 h4{
+  margin-left: 1.8em;
+  margin-top: -5.75em;
+  color: #f5f2ef;
+}
+
+.palette5 p {
+  margin-left: 2.2em;
+  margin-top: -1em;
+  color: #f5f2ef;
+}
+
+.palette5 .circle{
+  height: 8em;
+  width: 8em;
+  background-color: #8c725a;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 3em;
+}
+
+.palette6 h4{
+  margin-left: 11.8em;
+  margin-top: -5.75em;
+  color: #f5f2ef;
+}
+
+.palette6 p {
+  margin-left: 12.8em;
+  margin-top: -1em;
+  color: #f5f2ef;
+}
+
+.palette6 .circle{
+  height: 8em;
+  width: 8em;
+  background-color: #6d5946;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10em;
+  margin-top: -6.85em;
+}
+
+.interest-element ul{
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #6d5946;
+}
+
+.interest-element ul li{
+  display: inline-block;
+  margin-top: 1em;
+  margin-right: 1em;
+  float: center;
+}
+
+#citations p{
+  color: #6d5946;
+}
+
+.project-element img{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.project-element p{
+  text-align: center;
+}
+
+.footer{
+  background-color: #dcd2c8;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.footer .single-footer p{
+  color: #6d5946;
+  text-align: center;
+  font-size: 1em;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #6d5946;
+  text-align: center;
+  font-size: 1em;
+}
+
+.footer ul{
+  text-align: center;
+  color: #6d5946;
+}
+
+.footer ul li{
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.footer ul li a:hover{
+  color: #af9883;
+  transition: 0.3s;
+}
+
+.bottom-footer p{
+  text-align: center;
+  color: #af9883;
+  font-size: 0.8em;
+  margin-left: 1em;
+}
+
+.footer-social i{
+  font-size: 1.2em;
+}
+
+.heading-w {
+  font-size: 0.1em;
+  color: #fff;
+  /* background-color: #fff; */
 }
