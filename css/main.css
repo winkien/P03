@@ -772,24 +772,24 @@ input[type=search]:focus, input[type=forminfo]:focus {
 }
 
 /* project 2 page */
-
-.p2-info .intro{
-  margin-top: 8em;
+.p2-info{
+  margin-top: 10em;
 }
 
-.p2-flex1{
+.p2-flex1, .p2-flex2, .p2-flex3{
   position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 5em;
 }
 
-.p2-flex1 .p2-text {
+.p2-flex1 .p2-text{
   position: relative;
   max-width: 32em;
-  flex: 0 0 40em;
-  margin-top: -14em;
+  flex: 0 0 32em;
+  margin-top: -9em;
 }
 
 .p2-text p{
@@ -801,14 +801,41 @@ input[type=search]:focus, input[type=forminfo]:focus {
 
 .p2-flex1 .p2-image{
   position: relative;
-  max-width: 40em;
-  flex: 0 0 40em;
+  max-width: 32em;
+  flex: 0 0 33em;
 }
 
 .p2-image img{
   max-width: 100%;
+  border: 0.5em solid #dcd2c8;
 }
 
 .p2-image p{
   text-align: center;
+}
+
+.p2-flex2 .p2-text{
+  position: relative;
+  max-width: 30em;
+  flex: 0 0 30em;
+  margin-top: -15em;
+}
+
+.p2-flex2 .p2-image{
+  position: relative;
+  max-width: 35em;
+  flex: 0 0 35em;
+}
+
+.p2-flex3 .p2-text {
+  position: relative;
+  max-width: 25em;
+  flex: 0 0 25em;
+  margin-top: -22em;
+}
+
+.p2-flex3 .p2-image{
+ position: relative;
+ max-width: 40em;
+ flex: 0 0 40em;
 }
