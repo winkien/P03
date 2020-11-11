@@ -20,7 +20,7 @@ html{
 }
 
 .navbar2 {
-  background-color: #dcd2c8;
+  background-color: #f5f2ef;
   padding-bottom: 0.5em;
 }
 
@@ -827,7 +827,6 @@ input[type=search]:focus, input[type=forminfo]:focus {
   position: relative;
   max-width: 25em;
   flex: 0 0 25em;
-  /* margin-top: 5em; */
 }
 
 
@@ -843,7 +842,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
   position: relative;
   max-width: 32em;
   flex: 0 0 32em;
-  margin-top: -9em;
+  margin-top: -7em;
 }
 
 .p2-text p{
@@ -872,7 +871,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
   position: relative;
   max-width: 30em;
   flex: 0 0 30em;
-  margin-top: -15em;
+  margin-top: -14em;
 }
 
 .p2-flex2 .p2-image{
