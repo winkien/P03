@@ -446,8 +446,8 @@ input[type=search]:focus, input[type=forminfo]:focus {
 }
 
 .image-element img{
-  max-width: 30em;
-  max-height: 22.5em;
+  max-width: 40em;
+  /* max-height: 22.5em; */
 }
 
 .image-element img:hover{
@@ -769,6 +769,70 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .p1-info p, .p2-info p{
   color: #af9883;
   font-family: "Poppins";
+}
+
+.p1-flex1, .p1-flex2, .p1-flex3{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5em;
+}
+
+.p1-flex1 .p1-text{
+  position: relative;
+  max-width: 32em;
+  flex: 0 0 32em;
+  /* margin-top: -9em; */
+}
+
+.p1-text p{
+  font-size: 1.1em;
+  text-align: justify;
+  line-height: 150%;
+  margin-top: 2em;
+}
+
+.p1-flex1 .p1-image{
+  position: relative;
+  max-width: 32em;
+  flex: 0 0 33em;
+}
+
+.p1-image img{
+  max-width: 100%;
+  border: 0.5em solid #dcd2c8;
+}
+
+.p1-image p{
+  text-align: center;
+}
+
+.p1-flex2 .p1-text{
+  position: relative;
+  max-width: 30em;
+  flex: 0 0 30em;
+  margin-top: -15em;
+}
+
+.p1-flex2 .p1-image{
+  position: relative;
+  max-width: 35em;
+  flex: 0 0 35em;
+}
+
+.p1-flex3 .p1-text {
+  position: relative;
+  max-width: 25em;
+  flex: 0 0 25em;
+  margin-top: -22em;
+}
+
+.p1-flex3 .p1-image{
+ position: relative;
+ max-width: 40em;
+ flex: 0 0 40em;
 }
 
 /* project 2 page */
