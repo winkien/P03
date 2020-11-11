@@ -14,7 +14,7 @@ html{
 }
 
 .navbar{
-  background-color: #dcd2c8;
+  background-color: #f5f2ef;
   margin-top: -5em;
   padding-bottom: 0.5em;
 }
@@ -498,13 +498,13 @@ input[type=search]:focus, input[type=forminfo]:focus {
 }
 
 .palette1 h4{
-  margin-left: 2em;
+  margin-left: 2.1em;
   margin-top: -6em;
   color: #6d5946;
 }
 
 .palette1 p {
-  margin-left: 2.5em;
+  margin-left: 2em;
   margin-top: -1em;
   color: #6d5946;
 }
@@ -652,7 +652,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 }
 
 .footer{
-  background-color: #dcd2c8;
+  background-color: #f5f2ef;
   padding-top: 1em;
   padding-bottom: 1em;
 }
