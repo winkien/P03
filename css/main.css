@@ -651,6 +651,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
   text-align: center;
 }
 
+/* footer */
 .footer{
   background-color: #f5f2ef;
   padding-top: 1em;
@@ -696,7 +697,59 @@ input[type=search]:focus, input[type=forminfo]:focus {
   font-size: 1.2em;
 }
 
+/* warning */
 .heading-w {
   font-size: 0.1em;
   color: #fff;
 }
+
+/* bio page */
+.bio-page{
+  margin: 5em;
+  color: #6d5946;
+}
+
+.bio-flex{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bio-image{
+  position: relative;
+  max-width: 40em;
+  flex: 0 0 40em;
+}
+
+.bio-image img{
+  max-width: 100%;
+}
+
+.bio-text {
+  position: relative;
+  max-width: 40em;
+  flex: 0 0 40em;
+}
+
+.bio-text .title h3{
+  margin-top: 2em;
+}
+
+.bio-text ul{
+  color: #6d5946;
+  margin-bottom:3em;
+}
+
+.bio-text ul li{
+  display: block;
+  margin-top: 0.8em;
+  margin-right: 1em;
+}
+
+.bio-text i{
+  margin-right: 1em;
+}
+
+/* project 1 page */
