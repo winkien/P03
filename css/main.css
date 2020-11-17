@@ -920,12 +920,15 @@ input[type=search]:focus, input[type=forminfo]:focus {
   }
 }
 
-@media screen and (max-width: 307px){
+@media screen and (max-width: 340px){
   .button1{
     padding: 1rem 1rem;
   }
-}
 
+  .home-project h2{
+    font-size: 1.3em;
+  }
+}
 
 .home-page h3, #project h3{
   color: #8c725a;
