@@ -733,17 +733,19 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .bio-image {
   position: relative;
   max-width: 40em;
-  flex: 0 0 40em;
+  /* flex: 0 0 40em; */
 }
 
 .bio-image img {
   max-width: 100%;
+  width: 100%;
+  height:auto;
 }
 
 .bio-text {
   position: relative;
   max-width: 40em;
-  flex: 0 0 40em;
+  /* flex: 0 0 40em; */
 }
 
 .bio-text .title h3 {
@@ -797,7 +799,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .p1-flex1 .p1-text {
   position: relative;
   max-width: 30em;
-  flex: 0 0 30em;
+  /* flex: 0 0 30em; */
   margin-top: -10em;
 }
 
@@ -811,7 +813,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .p1-flex1 .p1-image {
   position: relative;
   max-width: 35em;
-  flex: 0 0 35em;
+  /* flex: 0 0 35em; */
 }
 
 .p1-image img {
@@ -826,27 +828,27 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .p1-flex2 .p1-text {
   position: relative;
   max-width: 35em;
-  flex: 0 0 35em;
+  /* flex: 0 0 35em; */
   margin-top: -2em;
 }
 
 .p1-flex2 .p1-image {
   position: relative;
   max-width: 30em;
-  flex: 0 0 30em;
+  /* flex: 0 0 30em; */
 }
 
 .p1-flex3 .p1-text {
   position: relative;
   max-width: 25em;
-  flex: 0 0 25em;
+  /* flex: 0 0 25em; */
 
 }
 
 .p1-flex3 .p1-image {
   position: relative;
   max-width: 40em;
-  flex: 0 0 40em;
+  /* flex: 0 0 40em; */
   margin-top: -7em;
 }
 
@@ -854,7 +856,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .p2-flex1 .p2-text {
   position: relative;
   max-width: 32em;
-  flex: 0 0 32em;
+  /* flex: 0 0 32em; */
   margin-top: -4em;
 }
 
@@ -868,7 +870,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .p2-flex1 .p2-image {
   position: relative;
   max-width: 32em;
-  flex: 0 0 33em;
+  /* flex: 0 0 33em; */
 }
 
 .p2-image img {
@@ -883,27 +885,27 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .p2-flex2 .p2-text {
   position: relative;
   max-width: 30em;
-  flex: 0 0 30em;
+  /* flex: 0 0 30em; */
   margin-top: -13em;
 }
 
 .p2-flex2 .p2-image {
   position: relative;
   max-width: 35em;
-  flex: 0 0 35em;
+  /* flex: 0 0 35em; */
 }
 
 .p2-flex3 .p2-text {
   position: relative;
   max-width: 25em;
-  flex: 0 0 25em;
+  /* flex: 0 0 25em; */
   margin-top: -21em;
 }
 
 .p2-flex3 .p2-image {
   position: relative;
   max-width: 40em;
-  flex: 0 0 40em;
+  /* flex: 0 0 40em; */
 }
 
 /* home page */
@@ -976,13 +978,13 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .home-flex1 .home-text {
   position: relative;
   max-width: 70em;
-  flex: 0 0 70em;
+  /* flex: 0 0 70em; */
 }
 
 #project .home-flex2 .home-project{
   position: relative;
   max-width: 30em;
-  flex: 0 0 30em;
+  /* flex: 0 0 30em; */
 }
 
 .home-project img {
@@ -1041,7 +1043,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .contact-flex .contact-text{
   position: relative;
   max-width: 15em;
-  flex: 0 0 20em;
+  /* flex: 0 0 20em; */
 }
 
 .contact-text p {
@@ -1054,7 +1056,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .contact-form {
   position: relative;
   max-width: 35em;
-  flex: 0 0 35em;
+  /* flex: 0 0 35em; */
   text-align: center;
 }
 
