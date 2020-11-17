@@ -85,7 +85,7 @@ nav ul li a {
   position: relative;
 }
 
-nav ul li a.nav-link:before, #interactive-elements .in-text-element a:before {
+nav ul li a.nav-link:before, #interactive-elements .in-text-element a:before, .home-project .caption a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -98,7 +98,7 @@ nav ul li a.nav-link:before, #interactive-elements .in-text-element a:before {
   transition: all 0.3s ease-in-out;
 }
 
-nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hover:before {
+nav ul li a.nav-link:hover:before, #interactive-elements .in-text-element a:hover:before, .home-project .caption a:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -330,7 +330,7 @@ body {
   color: #af9883;
 }
 
-#interactive-elements .in-text-element a {
+#interactive-elements .in-text-element a{
   display: inline-block;
   outline: none;
   color: #af9883;
@@ -342,7 +342,19 @@ body {
   position: absolute;
 }
 
-.button {
+.home-project .caption a{
+  display: inline-block;
+  outline: none;
+  color: #af9883;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.875em;
+  letter-spacing: 0.075em;
+  font-weight: 600;
+  position: absolute;
+}
+
+.button, .button1 {
   padding: 1rem 2rem;
   margin: 0;
   cursor: pointer;
@@ -356,7 +368,7 @@ body {
   border: 0.1875em solid #af9883;
 }
 
-.button:hover {
+.button:hover, .button1:hover {
   background-color: #af9883;
   height: 1em;
   width: 0.5em;
@@ -364,7 +376,7 @@ body {
   color: white;
 }
 
-.button:focus {
+.button:focus, .button1:focus {
   opacity: 0.5;
 }
 
@@ -898,9 +910,22 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .home-page {
   color: #6d5946;
   margin: 5em;
-  margin-top: 10em;
   font-family: "Trebuchet MS";
+  text-align: center;
 }
+
+@media screen and (min-width: 1000px){
+  .home-page {
+    margin: 10em;
+  }
+}
+
+@media screen and (max-width: 307px){
+  .button1{
+    padding: 1rem 1rem;
+  }
+}
+
 
 .home-page h3, #project h3{
   color: #8c725a;
@@ -926,9 +951,16 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .home-page hr{
   margin-top: 10em;
   margin-bottom: 10em;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-.home-flex1, .home-flex2{
+.home-flex1{
+  margin-bottom: 5em;
+  font-family: "Poppins";
+}
+
+.home-flex2{
   position: relative;
   display: flex;
   justify-content: space-around;
@@ -952,6 +984,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 
 .home-project img {
   max-width: 100%;
+  margin-top: 5em;
 }
 
 .home-project .caption{
@@ -962,6 +995,10 @@ input[type=search]:focus, input[type=forminfo]:focus {
   opacity: 0.5;
   transition: 0.5s;
   cursor: pointer;
+}
+
+.home-project .caption a{
+  margin-left: -6.5em;
 }
 
 /* contact page */
