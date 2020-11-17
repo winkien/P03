@@ -760,7 +760,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
   margin-top: 10em;
 }
 
-.p1-info h3 .number, .p2-info h3 .number {
+.p1-info h3 .number, .p2-info h3 .number{
   color: #cdbfb1;
 }
 
@@ -768,7 +768,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
   color: #8c725a;
 }
 
-.p1-info p, .p2-info p {
+.p1-info p, .p2-info p, .p1-info h4, .p2-info h4  {
   color: #af9883;
   font-family: "Poppins";
 }
@@ -786,7 +786,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
   position: relative;
   max-width: 30em;
   flex: 0 0 30em;
-  /* margin-top: -4em; */
+  margin-top: -10em;
 }
 
 .p1-text p {
@@ -815,7 +815,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
   position: relative;
   max-width: 35em;
   flex: 0 0 35em;
-  /* margin-top: -3em; */
+  margin-top: -2em;
 }
 
 .p1-flex2 .p1-image {
@@ -828,13 +828,14 @@ input[type=search]:focus, input[type=forminfo]:focus {
   position: relative;
   max-width: 25em;
   flex: 0 0 25em;
+
 }
 
 .p1-flex3 .p1-image {
   position: relative;
   max-width: 40em;
   flex: 0 0 40em;
-  /* margin-top: -6em; */
+  margin-top: -7em;
 }
 
 /* project 2 page */
@@ -842,7 +843,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
   position: relative;
   max-width: 32em;
   flex: 0 0 32em;
-  /* margin-top: -7em; */
+  margin-top: -4em;
 }
 
 .p2-text p {
@@ -871,7 +872,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
   position: relative;
   max-width: 30em;
   flex: 0 0 30em;
-  /* margin-top: -14em; */
+  margin-top: -13em;
 }
 
 .p2-flex2 .p2-image {
@@ -884,7 +885,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
   position: relative;
   max-width: 25em;
   flex: 0 0 25em;
-  /* margin-top: -22em; */
+  margin-top: -21em;
 }
 
 .p2-flex3 .p2-image {
@@ -901,21 +902,30 @@ input[type=search]:focus, input[type=forminfo]:focus {
   font-family: "Trebuchet MS";
 }
 
-.home-page h3 {
+.home-page h3, #project h3{
   color: #8c725a;
 }
 
-.home-page h3 .number {
+.home-page h3 .number, #project h3 .number  {
   color: #cdbfb1;
 }
 
-.home-page p {
+.home-page p, #project p {
   color: #af9883;
   font-family: "Poppins";
 }
 
-.home-page .title {
+.home-page .title, #project .title {
   font-size: 2em;
+}
+
+#project h2{
+  color: #6d5946;
+}
+
+.home-page hr{
+  margin-top: 10em;
+  margin-bottom: 10em;
 }
 
 .home-flex1, .home-flex2{
@@ -934,20 +944,21 @@ input[type=search]:focus, input[type=forminfo]:focus {
   flex: 0 0 70em;
 }
 
-.home-flex2 .home-text{
-  position: relative;
-  max-width: 30em;
-  flex: 0 0 30em;
-  /* margin-top: -14em; */
-}
-
-.home-flex2 .home-image{
+#project .home-flex2 .home-project{
   position: relative;
   max-width: 30em;
   flex: 0 0 30em;
 }
 
-.home-image img {
+.home-project img {
   max-width: 100%;
-  border: 0.5em solid #dcd2c8;
+}
+
+.home-project .caption{
+  text-align: center;
+}
+
+.home-project img:hover {
+  opacity: 0.5;
+  transition: 0.5s;
 }
