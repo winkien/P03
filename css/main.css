@@ -942,6 +942,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 
 .home-page h3, #project h3{
   color: #8c725a;
+  text-align: center;
 }
 
 .home-page h3 .number, #project h3 .number  {
@@ -963,7 +964,6 @@ input[type=search]:focus, input[type=forminfo]:focus {
 
 .home-page hr{
   margin-top: 10em;
-  margin-bottom: 10em;
   margin-left: 0;
   margin-right: 0;
 }
