@@ -798,22 +798,45 @@ input[type=search]:focus, input[type=forminfo]:focus {
 
 .p1-flex1 .p1-text {
   position: relative;
-  max-width: 30em;
-  /* flex: 0 0 30em; */
-  margin-top: -10em;
+  max-width: 32.5em;
+}
+
+@media screen and (min-width: 1200px){
+  .p1-flex1 .p1-text {
+    margin-top: -3em;
+  }
+
+  .p1-flex2 .p1-text {
+    margin-top: 8em;
+  }
+
+  .p1-flex3 .p1-image {
+    margin-top: -10em;
+  }
+
+  .p2-flex1 .p2-text {
+    margin-top: -4em;
+  }
+
+  .p2-flex2 .p2-text {
+    margin-top: -12em;
+  }
+
+  .p2-flex3 .p2-text {
+    margin-top: -19em;
+  }
 }
 
 .p1-text p {
   font-size: 1.1em;
   text-align: justify;
   line-height: 150%;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 .p1-flex1 .p1-image {
   position: relative;
-  max-width: 35em;
-  /* flex: 0 0 35em; */
+  max-width: 32.5em;
 }
 
 .p1-image img {
@@ -827,37 +850,28 @@ input[type=search]:focus, input[type=forminfo]:focus {
 
 .p1-flex2 .p1-text {
   position: relative;
-  max-width: 35em;
-  /* flex: 0 0 35em; */
-  margin-top: -2em;
+  max-width: 32.5em;
 }
 
 .p1-flex2 .p1-image {
   position: relative;
-  max-width: 30em;
-  /* flex: 0 0 30em; */
+  max-width: 32.5em;
 }
 
 .p1-flex3 .p1-text {
   position: relative;
-  max-width: 25em;
-  /* flex: 0 0 25em; */
-
+  max-width: 32.5em;
 }
 
 .p1-flex3 .p1-image {
   position: relative;
-  max-width: 40em;
-  /* flex: 0 0 40em; */
-  margin-top: -7em;
+  max-width: 32.5em;
 }
 
 /* project 2 page */
 .p2-flex1 .p2-text {
   position: relative;
-  max-width: 32em;
-  /* flex: 0 0 32em; */
-  margin-top: -4em;
+  max-width: 32.5em;
 }
 
 .p2-text p {
@@ -865,12 +879,12 @@ input[type=search]:focus, input[type=forminfo]:focus {
   text-align: justify;
   line-height: 150%;
   margin-top: 2em;
+  margin-bottom: 3em;
 }
 
 .p2-flex1 .p2-image {
   position: relative;
-  max-width: 32em;
-  /* flex: 0 0 33em; */
+  max-width: 32.5em;
 }
 
 .p2-image img {
@@ -884,28 +898,22 @@ input[type=search]:focus, input[type=forminfo]:focus {
 
 .p2-flex2 .p2-text {
   position: relative;
-  max-width: 30em;
-  /* flex: 0 0 30em; */
-  margin-top: -13em;
+  max-width: 32.5em;
 }
 
 .p2-flex2 .p2-image {
   position: relative;
-  max-width: 35em;
-  /* flex: 0 0 35em; */
+  max-width: 32.5em;
 }
 
 .p2-flex3 .p2-text {
   position: relative;
-  max-width: 25em;
-  /* flex: 0 0 25em; */
-  margin-top: -21em;
+  max-width: 32.5em;
 }
 
 .p2-flex3 .p2-image {
   position: relative;
-  max-width: 40em;
-  /* flex: 0 0 40em; */
+  max-width: 32.5em;
 }
 
 /* home page */
