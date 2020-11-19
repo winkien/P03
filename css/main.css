@@ -887,7 +887,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 }
 
 /* home page */
-.home-page {
+.home-title {
   color: #6d5946;
   margin: 5em;
   font-family: "Poppins";
@@ -895,7 +895,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 }
 
 @media screen and (min-width: 1000px){
-  .home-page {
+  .home-title {
     margin: 10em;
   }
 }
@@ -910,20 +910,16 @@ input[type=search]:focus, input[type=forminfo]:focus {
   }
 }
 
-.home-page h3, #project h3{
+.home-title h3, #project h3{
   color: #8c725a;
   text-align: center;
 }
 
-.home-page h3 .number, #project h3 .number  {
+#project h3 .number  {
   color: #cdbfb1;
 }
 
-.home-page p, #project p {
-  color: #af9883;
-}
-
-.home-page .title, #project .title {
+.home-title .title, #project .title {
   font-size: 2em;
 }
 
@@ -931,7 +927,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
   color: #6d5946;
 }
 
-.home-page hr{
+.home-title hr{
   margin-top: 10em;
 }
 
