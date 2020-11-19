@@ -890,7 +890,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .home-page {
   color: #6d5946;
   margin: 5em;
-  font-family: "Trebuchet MS";
+  font-family: "Poppins";
   text-align: center;
 }
 
@@ -921,7 +921,6 @@ input[type=search]:focus, input[type=forminfo]:focus {
 
 .home-page p, #project p {
   color: #af9883;
-  font-family: "Poppins";
 }
 
 .home-page .title, #project .title {
@@ -934,13 +933,6 @@ input[type=search]:focus, input[type=forminfo]:focus {
 
 .home-page hr{
   margin-top: 10em;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.home-flex1{
-  margin-bottom: 5em;
-  font-family: "Poppins";
 }
 
 .home-flex2{
@@ -950,19 +942,16 @@ input[type=search]:focus, input[type=forminfo]:focus {
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 5em;
-  font-family: "Poppins";
 }
 
 .home-flex1 .home-text {
   position: relative;
   max-width: 70em;
-  /* flex: 0 0 70em; */
 }
 
 #project .home-flex2 .home-project{
   position: relative;
   max-width: 30em;
-  /* flex: 0 0 30em; */
 }
 
 .home-project img {
