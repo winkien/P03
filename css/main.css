@@ -940,11 +940,6 @@ input[type=search]:focus, input[type=forminfo]:focus {
   margin-bottom: 5em;
 }
 
-.home-flex1 .home-text {
-  position: relative;
-  max-width: 70em;
-}
-
 #project .home-flex2 .home-project{
   position: relative;
   max-width: 30em;
