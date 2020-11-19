@@ -887,7 +887,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 }
 
 /* home page */
-.home-title {
+.home-page {
   color: #6d5946;
   margin: 5em;
   font-family: "Poppins";
@@ -895,7 +895,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 }
 
 @media screen and (min-width: 1000px){
-  .home-title {
+  .home-page {
     margin: 10em;
   }
 }
@@ -910,7 +910,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
   }
 }
 
-.home-title h3, #project h3{
+.home-page h3, #project h3{
   color: #8c725a;
   text-align: center;
 }
@@ -919,7 +919,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
   color: #cdbfb1;
 }
 
-.home-title .title, #project .title {
+.home-page .title{
   font-size: 2em;
 }
 
@@ -927,7 +927,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
   color: #6d5946;
 }
 
-.home-title hr{
+.home-page hr{
   margin-top: 10em;
 }
 
