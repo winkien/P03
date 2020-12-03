@@ -396,7 +396,8 @@ input[type=search], textarea{
   font-weight: 400;
   padding-left: 0.9375em;
   padding-right: 1.25em;
-    font-family: "Poppins";
+  font-family: "Poppins";
+  outline: none;
 }
 
 input[type=search]{
@@ -1007,4 +1008,61 @@ input[type=search]:focus, textarea:focus {
   color: #af9883;
   font-family: "Trebuchet MS";
   text-align: center;
+}
+
+/* back to top button */
+#back-to-top-btn{
+  display: none;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  font-size: 1.625em;
+  width: 2.25em;
+  height: 2.25em;
+  background-color: #fff;
+  color: #af9883;
+  cursor: pointer;
+  outline: none;
+  border: 0.15em solid #af9883;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+
+#back-to-top-btn:hover, #back-to-top-btn:focus{
+  background-color: #af9883;
+  color: #fff;
+}
+
+.btnEntrance {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: btnEntrance;
+}
+
+@keyframes btnEntrance {
+  from{
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.btnExit {
+  animation-duration: 0.25s;
+  animation-fill-mode: both;
+  animation-name: btnExit;
+}
+
+@keyframes btnExit{
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
 }
