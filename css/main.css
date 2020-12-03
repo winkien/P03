@@ -16,7 +16,6 @@ html {
 .navbar {
   background-color: #f5f2ef;
   margin-top: -5em;
-  padding-bottom: 1em;
 }
 
 .navbar2 {
@@ -28,7 +27,7 @@ nav {
   padding: 0.5em;
   margin: 0;
   width: 100%;
-  height: 7vh;
+  height: 4em;
   font-family: Poppins;
   font-weight: 400;
 }
@@ -510,7 +509,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .color-flex{
   position: relative;
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 5em;
@@ -700,7 +699,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .bio-flex {
   position: relative;
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -772,7 +771,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .p1-flex1, .p1-flex2, .p1-flex3, .p2-flex1, .p2-flex2, .p2-flex3 {
   position: relative;
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 5em;
@@ -956,7 +955,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .home-flex2{
   position: relative;
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 5em;
@@ -1025,7 +1024,7 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .contact-flex{
   position: relative;
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 5em;
