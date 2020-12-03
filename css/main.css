@@ -777,16 +777,12 @@ input[type=search]:focus, input[type=forminfo]:focus {
 }
 
 @media screen and (min-width: 1200px){
-  .p1-flex1 .p1-text {
-    margin-top: -5em;
-  }
-
   .p1-flex2 .p1-text {
-    margin-top: 2em;
+    margin-top: -4em;
   }
 
-  .p1-flex3 .p1-image {
-    margin-top: -5em;
+  .p1-flex3 .p1-text {
+    margin-top: -3em;
   }
 
   .p2-flex1 .p2-text {
