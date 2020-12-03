@@ -817,11 +817,11 @@ input[type=search]:focus, textarea:focus {
   }
 
   .p2-flex3 .p2-text {
-    /* margin-top: -18em; */
+    margin-top: -9em;
   }
 
   .p2-flex4 .p2-text{
-    /* margin-top: 5em; */
+    margin-top: -18em;
   }
 }
 
