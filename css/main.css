@@ -760,7 +760,7 @@ input[type=search]:focus, textarea:focus {
   margin-right: 1em;
 }
 
-/* project 1 page */
+/* project 1, 2 page */
 .p1-info, .p2-info {
   color: #6d5946;
   font-family: "Trebuchet MS";
@@ -783,7 +783,7 @@ input[type=search]:focus, textarea:focus {
   font-family: "Poppins";
 }
 
-.p1-flex1, .p1-flex2, .p1-flex3, .p1-flex4, .p2-flex1, .p2-flex2, .p2-flex3 {
+.p1-flex1, .p1-flex2, .p1-flex3, .p1-flex4, .p2-flex1, .p2-flex2, .p2-flex3, .p2-flex4 {
   position: relative;
   display: flex;
   justify-content: space-around;
@@ -800,89 +800,50 @@ input[type=search]:focus, textarea:focus {
     margin-top: -7em;
   }
 
-  .p1-flex1, .p1-flex2, .p1-flex3, .p1-flex4, .p2-flex1, .p2-flex2, .p2-flex3 {
+  .p1-flex1, .p1-flex2, .p1-flex3, .p1-flex4, .p2-flex1, .p2-flex2, .p2-flex3, .p2-flex4 {
     margin-bottom: 5em;
   }
 
-  .p1-flex4 .p1-text {
-    margin-top: -5em;
+  .p1-flex3 .p1-text {
+    margin-top: -8em;
   }
 
   .p2-flex1 .p2-text {
-    margin-top: -2em;
+    margin-top: -5em;
   }
 
   .p2-flex2 .p2-text {
-    margin-top: -7em;
+    margin-top: -10em;
   }
 
   .p2-flex3 .p2-text {
-    margin-top: -18em;
+    /* margin-top: -18em; */
+  }
+
+  .p2-flex4 .p2-text{
+    /* margin-top: 5em; */
   }
 }
 
-.p1-text p {
+.p1-text p, .p2-text p {
   font-size: 1.1em;
   line-height: 150%;
 }
 
-.p1-image img {
+.p1-image img, .p2-image img {
   max-width: 100%;
   border: 0.5em solid #dcd2c8;
 }
 
-.p1-image p {
+.p1-image p, .p2-image p {
   text-align: center;
   margin-bottom:1em;
 }
 
-.p1-flex1 .p1-text, .p1-flex1 .p1-image, .p1-flex2 .p1-text, .p1-flex2 .p1-image, .p1-flex3 .p1-image, .p1-flex4 .p1-text, .p1-flex4 .p1-image {
-  position: relative;
-  max-width: 32.5em;
-}
-
-/* project 2 page */
-.p2-flex1 .p2-text {
-  position: relative;
-  max-width: 32.5em;
-}
-
-.p2-text p {
-  font-size: 1.1em;
-  line-height: 150%;
-}
-
-.p2-flex1 .p2-image {
-  position: relative;
-  max-width: 32.5em;
-}
-
-.p2-image img {
-  max-width: 100%;
-  border: 0.5em solid #dcd2c8;
-}
-
-.p2-image p {
-  text-align: center;
-  margin-bottom:1em;
-}
-
-.p2-flex2 .p2-text {
-  position: relative;
-  max-width: 32.5em;
-}
-
-.p2-flex2 .p2-image {
-  position: relative;
-  max-width: 32.5em;
-}
-
-.p2-flex3 .p2-text {
-  position: relative;
-  max-width: 32.5em;
-}
-
-.p2-flex3 .p2-image {
+.p1-flex1 .p1-text, .p1-flex1 .p1-image, .p1-flex2 .p1-text, .p1-flex2 .p1-image,
+.p1-flex3 .p1-text, .p1-flex3 .p1-image, .p1-flex4 .p1-text, .p1-flex4 .p1-image,
+.p2-flex1 .p2-text, .p2-flex1 .p2-image, .p2-flex2 .p2-text, .p2-flex2 .p2-image,
+.p2-flex3 .p2-text, .p2-flex3 .p2-image, .p2-flex4 .p2-text, .p2-flex4 .p2-image {
   position: relative;
   max-width: 32.5em;
 }
