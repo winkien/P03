@@ -381,7 +381,7 @@ body {
 }
 
 input[type=search] {
-  width: 15em;
+  width: 18em;
   transition: width .35s ease-in-out;
   border: 0.125em solid #af9883;
   border-radius: 1.875em;
@@ -890,14 +890,16 @@ input[type=search]:focus, input[type=forminfo]:focus {
 /* home page */
 .home-page {
   color: #6d5946;
-  margin: 5em;
+  margin-top: 10em;
+  margin-left: 2em;
+  margin-right: 2em;
   font-family: "Trebuchet MS";
   text-align: center;
 }
 
 @media screen and (min-width: 1000px){
   .home-page {
-    margin: 10em;
+    margin-top: 15em;
   }
 }
 
@@ -1022,7 +1024,6 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .contact-flex .contact-text{
   position: relative;
   max-width: 15em;
-  /* flex: 0 0 20em; */
 }
 
 .contact-text p {
@@ -1035,7 +1036,6 @@ input[type=search]:focus, input[type=forminfo]:focus {
 .contact-form {
   position: relative;
   max-width: 35em;
-  /* flex: 0 0 35em; */
   text-align: center;
 }
 
