@@ -1013,26 +1013,27 @@ input[type=search]:focus, textarea:focus {
 #back-to-top-btn{
   display: none;
   position: fixed;
-  bottom: 1em;
-  right: 1em;
-  font-size: 1.625em;
-  width: 2.25em;
-  height: 2.25em;
-  background-color: #fff;
+  bottom: 1.25em;
+  right: 1.25em;
+  font-size: 1.5em;
+  width: 2em;
+  height: 2em;
+  /* background-color: #fff; */
+  border: none;
   color: #af9883;
   cursor: pointer;
   outline: none;
-  border: 0.15em solid #af9883;
+  /* border: 0.1em solid #af9883; */
   border-radius: 50%;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
-  transition-property: background-color, color;
+  /* transition-property: background-color, color; */
 }
 
-#back-to-top-btn:hover, #back-to-top-btn:focus{
+/* #back-to-top-btn:hover, #back-to-top-btn:focus{
   background-color: #af9883;
   color: #fff;
-}
+} */
 
 .btnEntrance {
   animation-duration: 0.5s;
