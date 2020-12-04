@@ -685,7 +685,7 @@ input[type=search]:focus, textarea:focus {
   margin-right: 1em;
 }
 
-.footer ul li a:hover {
+.footer ul li a:hover, .contact-page a:hover {
   color: #af9883;
   transition: 0.3s;
 }
@@ -952,12 +952,6 @@ input[type=search]:focus, textarea:focus {
 }
 
 /* contact page */
-@media screen and (min-width: 959px){
-  .contact-flex .contact-text{
-    /* margin-top: -17em; */
-  }
-}
-
 @media screen and (min-width: 550px){
   input[type=search], textarea{
     width: 25em;
@@ -1003,6 +997,7 @@ input[type=search]:focus, textarea:focus {
 
 .contact-page a{
   color: #6d5946;
+  text-decoration: none;
 }
 
 .contact-page i{
