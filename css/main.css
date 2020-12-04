@@ -637,7 +637,6 @@ input[type=search]:focus, textarea:focus {
 
 #citations a, #citations p {
   color: #6d5946;
-  /* font-size: 1em; */
 }
 
 #citations a:hover{
@@ -652,10 +651,6 @@ input[type=search]:focus, textarea:focus {
 
 .project-element p {
   text-align: center;
-}
-
-.bio-element p{
-  /* text-align: justify; */
 }
 
 /* footer */
@@ -1004,6 +999,14 @@ input[type=search]:focus, textarea:focus {
   margin-bottom: 2em;
   text-align: center;
   color: #6d5946;
+}
+
+.contact-page a{
+  color: #6d5946;
+}
+
+.contact-page i{
+  margin-right: 1em;
 }
 
 .contact-form {
