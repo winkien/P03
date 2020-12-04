@@ -994,6 +994,7 @@ input[type=search]:focus, textarea:focus {
   line-height: 150%;
   margin-bottom: 2em;
   text-align: center;
+  color: #6d5946;
 }
 
 .contact-form {
