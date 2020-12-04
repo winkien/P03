@@ -19,10 +19,10 @@ function scrollFunction() {
       }, 250);
     }
   }
-};
+}
 
 backToTopButton.addEventListener("click", backToTop);
 
 function backToTop() {
   window.scrollTo(0, 0);
-};
+}
