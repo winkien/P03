@@ -8,6 +8,7 @@
   <link href="css/main.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -38,7 +39,7 @@
 
   <section class="home-page">
     <button id="back-to-top-btn"><i class="fa fa-angle-double-up"></i></button>
-    <div class="home-flex1">
+    <div class="home-flex1" data-aos="fade-down">
       <!-- <div class="home-text"> -->
         <h3>Hello, I'm</h3>
         <h3><span class="title">Winkie Ng</span></h3>
@@ -51,17 +52,17 @@
     </div>
   </section>
   <section id="project">
-    <h3><span class="title1">My Work</span></h3>
+    <h3><span class="title1" data-aos="fade-down">My Work</span></h3>
     <div class="home-flex2">
-      <div class="home-project">
-        <a href="project1.html"><img src="img/106-model2.jpg" alt="106-model"></a>
+      <div class="home-project" data-aos="fade-down">
+        <a href="project1.html"><img src="img/106-model.jpg" alt="106-model"></a>
         <div class="caption">
           <h3><span class="number">01 </span>Spring 2020</h3>
           <h2>The Clown On A Unicycle</h2>
           <a href="project1.html">Click for more details</a>
         </div>
       </div>
-      <div class="home-project">
+      <div class="home-project" data-aos="fade-down">
         <a href="project2.html"><img src="img/265-step2.jpeg" alt="265-step"></a>
         <div class="caption">
           <h3><span class="number">02 </span>Summer 2020</h3>
@@ -121,6 +122,13 @@
     </div>
   </footer>
   <script src="scripts/style.js"></script>
+  <script src="http://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1000
+    });
+  </script>
 </body>
 
 </html>

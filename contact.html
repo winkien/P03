@@ -8,6 +8,7 @@
   <link href="css/main.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -39,14 +40,14 @@
   <section class="contact-page">
     <button id="back-to-top-btn"><i class="fa fa-angle-double-up"></i></button>
     <div class="contact-flex">
-      <div class="contact-text">
+      <div class="contact-text" data-aos="fade-down">
         <h2>Get in touch!</h2>
         <p>Feel free to contact me whether you're interested in working with me
           or just want to say hello. </p>
         <p><i class="fa fa-mobile"></i> +1 (778) 882 9281</p>
         <p><i class="fa fa-envelope-o"></i> ng.winkie@gmail.com</p>
       </div>
-      <div class="contact-form">
+      <div class="contact-form" data-aos="fade-down">
         <h2>Leave a message</h2>
         <h4>Your name</h4>
         <form>
@@ -113,6 +114,13 @@
     </div>
   </footer>
   <script src="scripts/style.js"></script>
+  <script src="http://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1000
+    });
+  </script>
 </body>
 
 </html>

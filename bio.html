@@ -8,6 +8,8 @@
   <link href="css/main.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -39,10 +41,10 @@
   <section class="bio-page">
     <button id="back-to-top-btn"><i class="fa fa-angle-double-up"></i></button>
     <div class="bio-flex">
-      <div class="bio-image">
+      <div class="bio-image" data-aos="fade-down">
         <img src="img/bio.JPG" alt="bio_image">
       </div>
-      <div class="bio-text">
+      <div class="bio-text" data-aos="fade-down">
         <h3>My name is Winkie. </h3>
         <p>I'm a graphic designer and digital illustrator living in Vancouver, BC.
           I am currently majoring in Interactive Arts and Technology with a
@@ -118,6 +120,13 @@
     </div>
   </footer>
   <script src="scripts/style.js"></script>
+  <script src="http://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1000
+    });
+  </script>
 </body>
 
 </html>

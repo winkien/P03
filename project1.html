@@ -8,6 +8,7 @@
   <link href="css/main.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -38,7 +39,7 @@
 
   <section class="p1-info">
     <button id="back-to-top-btn"><i class="fa fa-angle-double-up"></i></button>
-    <div class="p1-flex1">
+    <div class="p1-flex1" data-aos="fade-down">
       <div class="p1-text">
         <h3><span class="number">01 </span>Spring 2020</h3>
         <h2>The Clown On A Unicycle</h2>
@@ -62,7 +63,7 @@
         <p>Figure 1: Ng, W.(Spring 2020). Final model of The Clown On A Unicycle. [Screenshot]</p>
       </div>
     </div>
-    <div class="p1-flex2">
+    <div class="p1-flex2" data-aos="fade-down">
       <div class="p1-image">
         <img src="img/106-first-sketch.jpg" alt="106-first-skethc">
         <p>Figure 2: Ng, W.(Spring 2020). The first sketch of the model after our
@@ -90,7 +91,7 @@
         </p>
       </div>
     </div>
-    <div class="p1-flex3">
+    <div class="p1-flex3" data-aos="fade-down">
       <div class="p1-text">
         <h3>Reflection</h3>
         <p>
@@ -161,6 +162,13 @@
     </div>
   </footer>
   <script src="scripts/style.js"></script>
+  <script src="http://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1000
+    });
+  </script>
 </body>
 
 </html>
