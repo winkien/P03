@@ -282,7 +282,10 @@ body {
 }
 
 #interactive-elements, #text-elements, #combined-elements, #components, #citations {
-  margin: 5em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 #interactive-elements h2, #text-elements .title h2, #combined-elements h2, #components h2, #citations h2 {
@@ -632,8 +635,14 @@ input[type=search]:focus, textarea:focus {
   margin-right: 1em;
 }
 
-#citations p {
+#citations a, #citations p {
   color: #6d5946;
+  /* font-size: 1em; */
+}
+
+#citations a:hover{
+  background-color: #dcd2c8;
+  transition: 0.3s;
 }
 
 .project-element img {
